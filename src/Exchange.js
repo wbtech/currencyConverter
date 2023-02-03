@@ -36,11 +36,13 @@ const CurrencyConverter = () => {
           <option value="USD">USD</option>
           <option value="EUR">EUR</option>
           <option value="GBP">GBP</option>
+          <option value="CAD">CAD</option>
         </select>
         <select value={toCurrency} onChange={handleToCurrencyChange}>
           <option value="USD">USD</option>
           <option value="EUR">EUR</option>
           <option value="GBP">GBP</option>
+          <option value="CAD">CAD</option>
         </select>
         <button type="submit">Convert</button>
       </form>
